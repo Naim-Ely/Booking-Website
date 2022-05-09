@@ -1,0 +1,29 @@
+body {
+  background-image: url('<!-- Link to background image -->');
+}
+table, td, th, h1{margin-left:auto; 
+    margin-right:auto; background-color: tomato; color: white; border: 2px solid black; text-align: center;}
+.vis {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  text-align: center;
+}
+.btn-group button {
+  background-color: tomato; 
+  color: white; 
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; 
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
